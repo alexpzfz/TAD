@@ -1,0 +1,52 @@
+theory:
+  camb:
+    extra_args:
+      num_massive_neutrinos: 1
+      nnu: 3.044
+likelihood:
+  bao_gal_qso:
+    class: bao.generic
+    measurements_file: /pscratch/sd/c/crisjagq/1er_Taller_DESI/my_cobaya/data/desi/desi_forecast_datavector_bao_bin2.dat
+    cov_file: /pscratch/sd/c/crisjagq/1er_Taller_DESI/my_cobaya/data/desi/desi_forecast_covariance_bao_bin2.txt
+    rs_fid: 1.0
+params:
+  H0:
+    prior:
+      min: 20
+      max: 100
+    ref:
+      dist: norm
+      loc: 67
+      scale: 2
+    proposal: 2
+    latex: H_0
+  ombh2:
+    prior:
+      dist: norm
+      loc: 0.0222
+      scale: 0.0005
+    ref:
+      dist: norm
+      loc: 0.0224
+      scale: 0.0001
+    proposal: 0.0001
+    latex: \Omega_\mathrm{b} h^2
+  omch2:
+    prior:
+      min: 0.001
+      max: 0.99
+    ref:
+      dist: norm
+      loc: 0.12
+      scale: 0.001
+    proposal: 0.0005
+    latex: \Omega_\mathrm{c} h^2
+  mnu: 0.06
+  omegam:
+    latex: \Omega_\mathrm{m}
+  omega_de:
+    latex: \Omega_\Lambda
+sampler:
+  mcmc:
+    Rminus1_stop: 0.02
+output: BAO_DESI_Bin2+BBN
