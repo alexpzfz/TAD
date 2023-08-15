@@ -1,0 +1,88 @@
+timing: True
+debug: False
+stop_at_error: False
+
+theory:
+  camb:
+    extra_args:
+      #dark_energy_model: ppf
+      lens_potential_accuracy: 1
+      num_massive_neutrinos: 1
+      nnu: 3.044
+      theta_H0_range:
+      - 20
+      - 100
+      
+likelihood:
+  # desilike likelihoods for BAO/RSD for LRG, QSO and MGS
+  my_likelihood.CompressedBAOLikelihood:
+  # BAO likelihoods for lyman alpha and elg
+  sdss_dr16_baoplus_elg:
+    class: bao.generic
+    path: /pscratch/sd/c/crisjagq/1er_Taller_DESI/TAD/Bloque2/demo/my_likelihood/.
+    measurements_file: data/BAO/sdss_DR16_ELG_BAO_DV.txt
+    cov_file: 
+    invcov_file: 
+    prob_dist: data/BAO/sdss_DR16_ELG_BAO_DV_chi2_table.txt
+    prob_dist_bounds: [1.487792213104118133e+01, 2.227506517683055165e+01]
+    observable_1: DV_over_rs
+    redshift: 0.845
+    aliases: [BAO]
+    speed: 2000
+  bao.sdss_dr16_baoplus_lyauto: 
+  bao.sdss_dr16_baoplus_lyxqso: 
+
+
+params:
+  H0:
+    prior:
+      min: 20
+      max: 100
+    ref:
+      dist: norm
+      loc: 67
+      scale: 2
+    proposal: 2
+    latex: H_0
+  ombh2:
+    prior:
+      min: 0.005
+      max: 0.1
+    ref:
+      dist: norm
+      loc: 0.0224
+      scale: 0.0001
+    proposal: 0.0001
+    latex: \Omega_\mathrm{b} h^2
+  omch2:
+    prior:
+      min: 0.001
+      max: 0.99
+    ref:
+      dist: norm
+      loc: 0.12
+      scale: 0.001
+    proposal: 0.0005
+    latex: \Omega_\mathrm{c} h^2
+  w:
+    prior:
+      min: -3
+      max: 1
+    ref:
+      dist: norm
+      loc: -0.99
+      scale: 0.02
+    proposal: 0.02
+    latex: w_\mathrm{DE}
+  mnu: 0.06
+  omegam:
+    latex: \Omega_\mathrm{m}
+  omega_de:
+    latex: \Omega_\Lambda
+
+sampler:
+  mcmc:
+    Rminus1_stop: 0.03
+
+# name of the chains
+output: chains/BAO_SDSS_wCDM_Fig4

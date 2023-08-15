@@ -1,0 +1,24 @@
+omegam	\Omega_m
+omegab	\Omega_b
+H0	H_0
+w	w
+omegabh2*	\Omega_b h^2
+omegach2*	\Omega_c h^2
+omegal*	\Omega_\Lambda
+omeganuh2*	\Omega_\nu h^2
+logA*	{\rm{ln}}(10^{10} A_s)
+sigma8*	\sigma_8
+S8*	S_8
+s8omegamp5*	\sigma_8 \Omega_m^{0.5}
+s8omegamp25*	\sigma_8 \Omega_m^{0.25}
+rdragh*	r_{\rm drag} h
+rdrag*	r_{\rm{drag}}
+chi2_DR12LRGbao*	\chi^2_{\rm DR12LRGbao}
+chi2_DR16LRGbao*	\chi^2_{\rm DR16LRGbao}
+chi2_DR16QSObao*	\chi^2_{\rm DR16QSObao}
+chi2_DR16ELGbao*	\chi^2_{\rm DR16ELGbao}
+chi2_DR16LYAUTO*	\chi^2_{\rm DR16LYAUTO}
+chi2_DR16LYxQSO*	\chi^2_{\rm DR16LYxQSO}
+chi2_MGS*	\chi^2_{\rm MGS}
+chi2_prior*	\chi^2_{\rm prior}
+chi2_BAO*	\chi^2_{\rm BAO}
