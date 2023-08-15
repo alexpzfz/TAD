@@ -1,0 +1,275 @@
+class: KaiserTracerPowerSpectrumMultipoles
+info: {}
+params:
+  N_ur:
+    delta: None
+    derived: false
+    drop: false
+    fixed: true
+    latex: N_{ur}
+    prior:
+      dist: uniform
+      limits: [0.05, 10.0]
+    proposal: None
+    ref:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: 2.0328
+      scale: 0.32
+    shape: []
+    value: 2.0328000000000004
+  Omega_k:
+    delta: [0.002, 0.002]
+    derived: false
+    drop: false
+    fixed: true
+    latex: \Omega_{k}
+    prior:
+      dist: uniform
+      limits: [-0.3, 0.3]
+    proposal: None
+    ref:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: 0.0
+      scale: 0.0065
+    shape: []
+    value: 0.0
+  Omega_m:
+    delta: [0.005, 0.005]
+    derived: false
+    drop: false
+    fixed: false
+    latex: \Omega_{m}
+    prior:
+      dist: uniform
+      limits: [0.01, 1.0]
+    proposal: None
+    ref:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: 0.3153
+      scale: 0.0073
+    shape: []
+    value: 0.31519172481908164
+  b1:
+    delta: None
+    derived: false
+    drop: false
+    fixed: false
+    latex: b_{1}
+    prior:
+      dist: uniform
+      limits: [0.0, 4.0]
+    proposal: None
+    ref:
+      dist: uniform
+      limits: [1.0, 2.0]
+    shape: []
+    value: 2.0
+  h:
+    delta: [0.003, 0.003]
+    derived: false
+    drop: false
+    fixed: false
+    latex: h
+    prior:
+      dist: uniform
+      limits: [0.1, 1.0]
+    proposal: None
+    ref:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: 0.6736
+      scale: 0.005
+    shape: []
+    value: 0.6736
+  logA:
+    delta: [0.0014, 0.0014]
+    derived: false
+    drop: false
+    fixed: false
+    latex: \ln(10^{10} A_{s})
+    prior:
+      dist: uniform
+      limits: [1.61, 3.91]
+    proposal: None
+    ref:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: 3.036394
+      scale: 0.014
+    shape: []
+    value: 3.0363942552728806
+  m_ncdm:
+    delta: [0.01, 0.01]
+    derived: false
+    drop: false
+    fixed: true
+    latex: m_{ncdm}
+    prior:
+      dist: uniform
+      limits: [0.0, 5.0]
+    proposal: None
+    ref:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: 0.06
+      scale: 0.12
+    shape: []
+    value: 0.05999991930682943
+  n_s:
+    delta: [0.0004, 0.0004]
+    derived: false
+    drop: false
+    fixed: true
+    latex: n_{s}
+    prior:
+      dist: uniform
+      limits: [0.8, 1.2]
+    proposal: None
+    ref:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: 0.9649
+      scale: 0.0042
+    shape: []
+    value: 0.9649
+  omega_b:
+    delta: [0.0002, 0.0002]
+    derived: false
+    drop: false
+    fixed: true
+    latex: \omega_{b}
+    prior:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: 0.02237
+      scale: 0.00037
+    proposal: None
+    ref:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: 0.02237
+      scale: 0.0002
+    shape: []
+    value: 0.02237
+  power:
+    delta: None
+    derived: true
+    drop: false
+    fixed: true
+    latex: None
+    prior:
+      dist: uniform
+      limits: [-.inf, .inf]
+    proposal: None
+    ref:
+      dist: uniform
+      limits: [-.inf, .inf]
+    shape: []
+    value: None
+  sigmapar:
+    delta: None
+    derived: false
+    drop: false
+    fixed: true
+    latex: \Sigma_{\parallel}
+    prior:
+      dist: uniform
+      limits: [0.0, 10]
+    proposal: None
+    ref:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: 5.0
+      scale: 2.0
+    shape: []
+    value: 0.0
+  sigmaper:
+    delta: None
+    derived: false
+    drop: false
+    fixed: true
+    latex: \Sigma_{\perp}
+    prior:
+      dist: uniform
+      limits: [0.0, 10]
+    proposal: None
+    ref:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: 5.0
+      scale: 2.0
+    shape: []
+    value: 0.0
+  sn0:
+    delta: None
+    derived: false
+    drop: false
+    fixed: false
+    latex: s_{n, 0}
+    prior:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: 0.0
+      scale: 1000.0
+    proposal: None
+    ref:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: 0.0
+      scale: 0.1
+    shape: []
+    value: None
+  tau_reio:
+    delta: [0.0012, 0.0012]
+    derived: false
+    drop: false
+    fixed: true
+    latex: \tau
+    prior:
+      dist: uniform
+      limits: [0.01, 0.8]
+    proposal: None
+    ref:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: 0.0544
+      scale: 0.008
+    shape: []
+    value: 0.0544
+  w0_fld:
+    delta: [0.01, 0.01]
+    derived: false
+    drop: false
+    fixed: true
+    latex: w_{0}
+    prior:
+      dist: uniform
+      limits: [-3.0, 1.0]
+    proposal: None
+    ref:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: -1.0
+      scale: 0.08
+    shape: []
+    value: -1.0
+  wa_fld:
+    delta: [0.01, 0.01]
+    derived: false
+    drop: false
+    fixed: true
+    latex: w_{a}
+    prior:
+      dist: uniform
+      limits: [-3.0, 2.0]
+    proposal: None
+    ref:
+      dist: norm
+      limits: [-.inf, .inf]
+      loc: 0.0
+      scale: 0.3
+    shape: []
+    value: 0.0
