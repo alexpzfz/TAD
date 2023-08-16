@@ -6,8 +6,8 @@ theory:
 likelihood:
   bao_gal_qso:
     class: bao.generic
-    measurements_file: /pscratch/sd/c/crisjagq/1er_Taller_DESI/my_cobaya/data/desi/desi_forecast_datavector_bao_bin1.dat
-    cov_file: /pscratch/sd/c/crisjagq/1er_Taller_DESI/my_cobaya/data/desi/desi_forecast_covariance_bao_bin1.txt
+    measurements_file: ./data/desi_forecast_datavector_bao_bin1.dat
+    cov_file: ./data/desi_forecast_covariance_bao_bin1.txt
     rs_fid: 1. # No fiducial sound horizon in the forecast
 params:
   H0:
@@ -59,4 +59,4 @@ params:
 sampler:
   mcmc:
     Rminus1_stop: 0.02
-output: /pscratch/sd/c/crisjagq/1er_Taller_DESI/my_cobaya/runs/background/chains/BAO_DESI_Bin1+BBN_wcdm
+output: ./chains/BAO_DESI_Bin1+BBN_wcdm

@@ -46,4 +46,4 @@ sampler:
   mcmc:
     Rminus1_stop: 0.02
     covmat: auto
-output: /pscratch/sd/c/crisjagq/1er_Taller_DESI/my_cobaya/runs/background/chains/SN+BBN
+output: ./chains/SN+BBN
