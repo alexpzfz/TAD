@@ -10,7 +10,7 @@ Introducción a cosmodesi & desilike.
 
 **Bloque2** (Cristhian & Leonel): Interfaz deslike/cobaya, constricción de parámetros cosmológicos.
 
-
+\\
 
 ## Instalación local de cosmodesi
 Instalar un ambiente nuevo en conda utilizando el archivo proporcionado:
