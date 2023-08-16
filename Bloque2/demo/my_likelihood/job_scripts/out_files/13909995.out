@@ -693,3 +693,139 @@
 [1 : mcmc] Progress @ 2023-08-14 22:09:33 : 3959 steps taken, and 1562 accepted.
 [0 : mcmc] Progress @ 2023-08-14 22:09:36 : 4018 steps taken, and 1649 accepted.
 [3 : mcmc] Progress @ 2023-08-14 22:09:36 : 3994 steps taken, and 1669 accepted.
+[1 : mcmc] Progress @ 2023-08-14 22:10:33 : 4009 steps taken, and 1586 accepted.
+[2 : mcmc] Progress @ 2023-08-14 22:10:34 : 4043 steps taken, and 1702 accepted.
+[3 : mcmc] Progress @ 2023-08-14 22:10:36 : 4047 steps taken, and 1689 accepted.
+[0 : mcmc] Progress @ 2023-08-14 22:10:38 : 4075 steps taken, and 1670 accepted.
+[1 : mcmc] Learn + convergence test @ 1600 samples accepted.
+[1 : likelihoodcollection] Average computation time:
+   my_likelihood.CompressedBAORSDLikelihood : 0.0717142 s (4016 evaluations, 288.004 s total)
+   bao.sdss_dr16_baoplus_elg : 0.000700656 s (4016 evaluations, 2.81384 s total)
+   bao.sdss_dr16_baoplus_lyauto : 0.000272888 s (4016 evaluations, 1.09592 s total)
+   bao.sdss_dr16_baoplus_lyxqso : 0.000254346 s (4016 evaluations, 1.02145 s total)
+[1 : theorycollection] Average computation time:
+   camb.transfers : 1.75312 s (2522 evaluations, 4421.36 s total)
+   camb : 0.0131572 s (4016 evaluations, 52.8393 s total)
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.388 = avg([0.38705234159779617, 0.37968675842429994, 0.39519852262234534, 0.39106402579456473])
+[0 : mcmc]  - Convergence of means: R-1 = 0.026459 after 6694 accepted steps = sum([1685, 1600, 1711, 1698])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[2 : mcmc] Progress @ 2023-08-14 22:11:35 : 4090 steps taken, and 1716 accepted.
+[1 : mcmc] Progress @ 2023-08-14 22:11:35 : 4057 steps taken, and 1612 accepted.
+[3 : mcmc] Progress @ 2023-08-14 22:11:36 : 4097 steps taken, and 1706 accepted.
+[0 : mcmc] Progress @ 2023-08-14 22:11:39 : 4120 steps taken, and 1689 accepted.
+[1 : mcmc] Progress @ 2023-08-14 22:12:36 : 4104 steps taken, and 1627 accepted.
+[2 : mcmc] Progress @ 2023-08-14 22:12:36 : 4142 steps taken, and 1732 accepted.
+[3 : mcmc] Progress @ 2023-08-14 22:12:37 : 4149 steps taken, and 1721 accepted.
+[0 : mcmc] Progress @ 2023-08-14 22:12:39 : 4170 steps taken, and 1708 accepted.
+[1 : mcmc] Progress @ 2023-08-14 22:13:36 : 4152 steps taken, and 1637 accepted.
+[2 : mcmc] Progress @ 2023-08-14 22:13:37 : 4196 steps taken, and 1756 accepted.
+[3 : mcmc] Progress @ 2023-08-14 22:13:39 : 4198 steps taken, and 1739 accepted.
+[0 : mcmc] Progress @ 2023-08-14 22:13:41 : 4218 steps taken, and 1725 accepted.
+[2 : mcmc] Progress @ 2023-08-14 22:14:38 : 4249 steps taken, and 1773 accepted.
+[1 : mcmc] Progress @ 2023-08-14 22:14:38 : 4202 steps taken, and 1652 accepted.
+[3 : mcmc] Progress @ 2023-08-14 22:14:39 : 4251 steps taken, and 1757 accepted.
+[0 : mcmc] Progress @ 2023-08-14 22:14:41 : 4271 steps taken, and 1743 accepted.
+[1 : mcmc] Progress @ 2023-08-14 22:15:38 : 4248 steps taken, and 1668 accepted.
+[2 : mcmc] Progress @ 2023-08-14 22:15:38 : 4305 steps taken, and 1793 accepted.
+[3 : mcmc] Progress @ 2023-08-14 22:15:39 : 4303 steps taken, and 1778 accepted.
+[0 : mcmc] Progress @ 2023-08-14 22:15:42 : 4324 steps taken, and 1759 accepted.
+[2 : mcmc] Learn + convergence test @ 1800 samples accepted.
+[2 : likelihoodcollection] Average computation time:
+   my_likelihood.CompressedBAORSDLikelihood : 0.0741278 s (4301 evaluations, 318.824 s total)
+   bao.sdss_dr16_baoplus_elg : 0.000682737 s (4301 evaluations, 2.93645 s total)
+   bao.sdss_dr16_baoplus_lyauto : 0.000299755 s (4301 evaluations, 1.28925 s total)
+   bao.sdss_dr16_baoplus_lyxqso : 0.00025317 s (4301 evaluations, 1.08888 s total)
+[2 : theorycollection] Average computation time:
+   camb.transfers : 1.76693 s (2681 evaluations, 4737.14 s total)
+   camb : 0.0139474 s (4301 evaluations, 59.9877 s total)
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2023-08-14 22:16:39 : 4361 steps taken, and 1814 accepted.
+[1 : mcmc] Progress @ 2023-08-14 22:16:39 : 4302 steps taken, and 1684 accepted.
+[3 : mcmc] Progress @ 2023-08-14 22:16:40 : 4355 steps taken, and 1793 accepted.
+[0 : mcmc] Progress @ 2023-08-14 22:16:44 : 4378 steps taken, and 1788 accepted.
+[3 : mcmc] Learn + convergence test @ 1800 samples accepted.
+[3 : likelihoodcollection] Average computation time:
+   my_likelihood.CompressedBAORSDLikelihood : 0.0728412 s (4348 evaluations, 316.713 s total)
+   bao.sdss_dr16_baoplus_elg : 0.000741663 s (4348 evaluations, 3.22475 s total)
+   bao.sdss_dr16_baoplus_lyauto : 0.000292506 s (4348 evaluations, 1.27181 s total)
+   bao.sdss_dr16_baoplus_lyxqso : 0.000268498 s (4348 evaluations, 1.16743 s total)
+[3 : theorycollection] Average computation time:
+   camb.transfers : 1.75789 s (2716 evaluations, 4774.42 s total)
+   camb : 0.0129903 s (4348 evaluations, 56.482 s total)
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 1800 samples accepted.
+[0 : likelihoodcollection] Average computation time:
+   my_likelihood.CompressedBAORSDLikelihood : 0.0746774 s (4387 evaluations, 327.61 s total)
+   bao.sdss_dr16_baoplus_elg : 0.000691317 s (4387 evaluations, 3.03281 s total)
+   bao.sdss_dr16_baoplus_lyauto : 0.000280447 s (4387 evaluations, 1.23032 s total)
+   bao.sdss_dr16_baoplus_lyxqso : 0.000262493 s (4387 evaluations, 1.15156 s total)
+[0 : theorycollection] Average computation time:
+   camb.transfers : 1.74791 s (2738 evaluations, 4785.77 s total)
+   camb : 0.0133751 s (4387 evaluations, 58.6765 s total)
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2023-08-14 22:17:39 : 4414 steps taken, and 1838 accepted.
+[1 : mcmc] Progress @ 2023-08-14 22:17:40 : 4354 steps taken, and 1705 accepted.
+[3 : mcmc] Progress @ 2023-08-14 22:17:41 : 4412 steps taken, and 1819 accepted.
+[0 : mcmc] Progress @ 2023-08-14 22:17:44 : 4432 steps taken, and 1812 accepted.
+[1 : mcmc] Progress @ 2023-08-14 22:18:40 : 4405 steps taken, and 1723 accepted.
+[2 : mcmc] Progress @ 2023-08-14 22:18:41 : 4468 steps taken, and 1853 accepted.
+[3 : mcmc] Progress @ 2023-08-14 22:18:42 : 4465 steps taken, and 1845 accepted.
+[0 : mcmc] Progress @ 2023-08-14 22:18:45 : 4484 steps taken, and 1833 accepted.
+[1 : mcmc] Progress @ 2023-08-14 22:19:41 : 4456 steps taken, and 1738 accepted.
+[3 : mcmc] Progress @ 2023-08-14 22:19:43 : 4516 steps taken, and 1863 accepted.
+[2 : mcmc] Progress @ 2023-08-14 22:19:43 : 4518 steps taken, and 1868 accepted.
+[0 : mcmc] Progress @ 2023-08-14 22:19:45 : 4538 steps taken, and 1853 accepted.
+[1 : mcmc] Progress @ 2023-08-14 22:20:42 : 4510 steps taken, and 1756 accepted.
+[3 : mcmc] Progress @ 2023-08-14 22:20:43 : 4567 steps taken, and 1884 accepted.
+[2 : mcmc] Progress @ 2023-08-14 22:20:44 : 4571 steps taken, and 1892 accepted.
+[0 : mcmc] Progress @ 2023-08-14 22:20:46 : 4594 steps taken, and 1882 accepted.
+[1 : mcmc] Progress @ 2023-08-14 22:21:43 : 4565 steps taken, and 1777 accepted.
+[3 : mcmc] Progress @ 2023-08-14 22:21:43 : 4623 steps taken, and 1904 accepted.
+[2 : mcmc] Progress @ 2023-08-14 22:21:45 : 4620 steps taken, and 1906 accepted.
+[0 : mcmc] Progress @ 2023-08-14 22:21:47 : 4647 steps taken, and 1911 accepted.
+[3 : mcmc] Progress @ 2023-08-14 22:22:44 : 4675 steps taken, and 1923 accepted.
+[1 : mcmc] Progress @ 2023-08-14 22:22:45 : 4614 steps taken, and 1790 accepted.
+[2 : mcmc] Progress @ 2023-08-14 22:22:48 : 4671 steps taken, and 1922 accepted.
+[0 : mcmc] Progress @ 2023-08-14 22:22:49 : 4699 steps taken, and 1932 accepted.
+[1 : mcmc] Learn + convergence test @ 1800 samples accepted.
+[1 : likelihoodcollection] Average computation time:
+   my_likelihood.CompressedBAORSDLikelihood : 0.0707931 s (4615 evaluations, 326.71 s total)
+   bao.sdss_dr16_baoplus_elg : 0.000703382 s (4615 evaluations, 3.24611 s total)
+   bao.sdss_dr16_baoplus_lyauto : 0.000284922 s (4615 evaluations, 1.31491 s total)
+   bao.sdss_dr16_baoplus_lyxqso : 0.000247162 s (4615 evaluations, 1.14065 s total)
+[1 : theorycollection] Average computation time:
+   camb.transfers : 1.75609 s (2896 evaluations, 5085.65 s total)
+   camb : 0.0131158 s (4615 evaluations, 60.5294 s total)
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.385 = avg([0.3944692964619764, 0.3694581280788177, 0.3882400322190898, 0.38593687574910107])
+[0 : mcmc]  - Convergence of means: R-1 = 0.020171 after 7599 accepted steps = sum([1940, 1800, 1927, 1932])
+[0 : mcmc]  - Convergence of bounds: R-1 = 0.104217 after 7599 accepted steps = sum([1940, 1800, 1927, 1932])
+[0 : mcmc] The run has converged!
+[1 : my_likelihood.compressedbaorsdlikelihood] Average evaluation time for my_likelihood.CompressedBAORSDLikelihood: 0.0707931 s  (4615 evaluations)
+[1 : bao.sdss_dr16_baoplus_elg] Average evaluation time for bao.sdss_dr16_baoplus_elg: 0.000703382 s  (4615 evaluations)
+[1 : bao.sdss_dr16_baoplus_lyauto] Average evaluation time for bao.sdss_dr16_baoplus_lyauto: 0.000284922 s  (4615 evaluations)
+[1 : bao.sdss_dr16_baoplus_lyxqso] Average evaluation time for bao.sdss_dr16_baoplus_lyxqso: 0.000247162 s  (4615 evaluations)
+[1 : camb.transfers] Average evaluation time for camb.transfers: 1.75609 s  (2896 evaluations)
+[1 : camb] Average evaluation time for camb: 0.0131158 s  (4615 evaluations)
+[3 : my_likelihood.compressedbaorsdlikelihood] Average evaluation time for my_likelihood.CompressedBAORSDLikelihood: 0.0725562 s  (4673 evaluations)
+[3 : bao.sdss_dr16_baoplus_elg] Average evaluation time for bao.sdss_dr16_baoplus_elg: 0.000750439 s  (4673 evaluations)
+[3 : bao.sdss_dr16_baoplus_lyauto] Average evaluation time for bao.sdss_dr16_baoplus_lyauto: 0.000295765 s  (4673 evaluations)
+[3 : bao.sdss_dr16_baoplus_lyxqso] Average evaluation time for bao.sdss_dr16_baoplus_lyxqso: 0.000272834 s  (4673 evaluations)
+[3 : camb.transfers] Average evaluation time for camb.transfers: 1.75658 s  (2913 evaluations)
+[3 : camb] Average evaluation time for camb: 0.0130561 s  (4673 evaluations)
+[2 : my_likelihood.compressedbaorsdlikelihood] Average evaluation time for my_likelihood.CompressedBAORSDLikelihood: 0.0742554 s  (4669 evaluations)
+[2 : bao.sdss_dr16_baoplus_elg] Average evaluation time for bao.sdss_dr16_baoplus_elg: 0.000675043 s  (4669 evaluations)
+[2 : bao.sdss_dr16_baoplus_lyauto] Average evaluation time for bao.sdss_dr16_baoplus_lyauto: 0.000302183 s  (4669 evaluations)
+[2 : bao.sdss_dr16_baoplus_lyxqso] Average evaluation time for bao.sdss_dr16_baoplus_lyxqso: 0.000261349 s  (4669 evaluations)
+[2 : camb.transfers] Average evaluation time for camb.transfers: 1.76559 s  (2913 evaluations)
+[2 : camb] Average evaluation time for camb: 0.0138779 s  (4669 evaluations)
+[0 : mcmc] Sampling complete after 7599 accepted steps.
+[0 : my_likelihood.compressedbaorsdlikelihood] Average evaluation time for my_likelihood.CompressedBAORSDLikelihood: 0.0743183 s  (4700 evaluations)
+[0 : bao.sdss_dr16_baoplus_elg] Average evaluation time for bao.sdss_dr16_baoplus_elg: 0.000695597 s  (4700 evaluations)
+[0 : bao.sdss_dr16_baoplus_lyauto] Average evaluation time for bao.sdss_dr16_baoplus_lyauto: 0.00027609 s  (4700 evaluations)
+[0 : bao.sdss_dr16_baoplus_lyxqso] Average evaluation time for bao.sdss_dr16_baoplus_lyxqso: 0.000259083 s  (4700 evaluations)
+[0 : camb.transfers] Average evaluation time for camb.transfers: 1.74599 s  (2931 evaluations)
+[0 : camb] Average evaluation time for camb: 0.0132803 s  (4700 evaluations)

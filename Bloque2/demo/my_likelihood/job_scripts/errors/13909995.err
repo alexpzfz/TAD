@@ -7,3 +7,4 @@ Error.  nthreads cannot be larger than environment variable "NUMEXPR_MAX_THREADS
   warnings.warn(msg)
 /global/common/software/desi/users/adematti/perlmutter/cosmodesiconda/20230725-1.0.0/code/desilike/main/lib/python3.10/site-packages/desilike/base.py:163: UserWarning: Derived parameter logprior of <desilike.likelihoods.base.ObservablesGaussianLikelihood object at 0x7f9660795060> is already derived in <desilike.likelihoods.base.ObservablesGaussianLikelihood object at 0x7f9660794e50>.
   warnings.warn(msg)
+Error.  nthreads cannot be larger than environment variable "NUMEXPR_MAX_THREADS" (0)Error.  nthreads cannot be larger than environment variable "NUMEXPR_MAX_THREADS" (0)Error.  nthreads cannot be larger than environment variable "NUMEXPR_MAX_THREADS" (0)
