@@ -12,8 +12,7 @@ Introducción a cosmodesi & desilike.
 
 
 
-
-**Instalación local de cosmodesi**
+## Instalación local de cosmodesi
 Instalar un ambiente nuevo en conda utilizando el archivo proporcionado:
 ```
 conda env create -f cosmodesi_env.yml
