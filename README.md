@@ -9,3 +9,16 @@ Introducción a cosmodesi & desilike.
 **Bloque1** (Cristhian & Leonel): Introducción a cobaya y getdist.
 
 **Bloque2** (Cristhian & Leonel): Interfaz deslike/cobaya, constricción de parámetros cosmológicos.
+
+
+
+
+**Instalación local de cosmodesi**
+Instalar un ambiente nuevo en conda utilizando el archivo proporcionado:
+```
+conda env create -f cosmodesi_env.yml
+```
+Activar el ambiente de la siguiente forma:
+```
+conda activate cosmodesi
+```
