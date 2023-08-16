@@ -353,9 +353,13 @@ dependencies:
   - pip:
     - anesthetic==2.1.5
     - camb==1.5.0
+    - classy==3.2.0
+    - cobaya==3.3.2
     - corrfunc==2.5.0
     - cosmoprimo==1.0.0
     - desilike==1.0.0
+    - dill==0.3.7
+    - fuzzywuzzy==0.18.0
     - getdist==1.4.3
     - healpy==1.16.3
     - jax==0.4.14
@@ -365,7 +369,10 @@ dependencies:
     - mpsort==0.1.17
     - opt-einsum==3.3.0
     - pfft-python==0.1.20
+    - planckpr4lensing==1.0.2
     - pmesh==0.1.56
+    - portalocker==2.7.0
+    - py-bobyqa==1.4
     - pyclass==1.1.0
     - pycorr==1.0.0
     - pypower==1.0.0
